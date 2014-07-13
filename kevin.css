@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background: url("photos/chrisbikemirror.jpg");
+  background-size: cover;
+  font-family: 'Montserrat',helvetica, sans-serif;
+  letter-spacing: 12px;
+}
+
+header {
+  height: 230px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .4);
+  box-shadow: inset 0px 0px 20px 6px #241F1F;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+}
+
+
+#title {
+  padding-top: 20px;
+  letter-spacing: 12px;
+}
+
+#title_text{
+  font-size: 60px;
+  color: black;
+}
+
+nav {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 85px;
+  margin-bottom: auto;
+  font-size: 20px;
+  color: black;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+#test:hover {
+  box-shadow:  0px 0px 20px 6px green;
+}
+
+a:active {
+    text-decoration: none;
+}
