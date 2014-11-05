@@ -3,21 +3,39 @@
 <head>
   <title>Jaffe Design</title>
   <script type="text/javascript" src="kevin.js"></script>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="kevin.css">
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="kevin.css">
 </head>
 <body>
   <header id="header" >
-    <nav>
-      <div id="title">
-        <a href="index.html" id="title_text"><p id="test">Jaffe Design</p></a>
-      </div>
-      <a id="furniture" href="furniture.html" onmouseover="hover('furniture')" class="nav active">Furniture</a>
-      <a id="art" href="fineart.html" onmouseover="hover('art')" onmouseout="unhover('art')" class="nav">Fine Art</a>
-      <a id="about" href="about.html" onmouseover="hover('about')" onmouseout="unhover('about')" class="nav">About</a>
+    <img class="logo" src="photos/logo.png">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Brand</a> -->
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="home" href="index.html" onclick="click('home')" onmouseover="hover('home')" onmouseout="unhover('home')" class="nav">Home</a></li>
+            <li><a id="furniture" href="furniture.html" onmouseover="hover('furniture')" class="nav active">Furniture</a></li>
+            <li><a id="art" href="fineart.html" onmouseover="hover('art')" onmouseout="unhover('art')" class="nav">Fine Art</a></li>
+            <li><a id="contact" href="contact.html" onmouseover="hover('contact')" onmouseout="unhover('contact')" class="nav">Contact</a></li>
+          </ul> 
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
   </header>
-</body>
 
+</body>
 </html>
